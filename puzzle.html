@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Личный сайт студента GeekBrains</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+		<link rel="stylesheet" href="style/style.min.css">
+	</head>
+	<body>
+		<header class="main-header">
+			<ul>
+				<li>
+					<a href="index.html">Главная</a>
+				</li>
+				<li class="active">
+					<a>Загадка</a>
+				</li>
+				<li>
+					<a href="guess.html">Угадайка</a>
+				</li>
+				<li>
+					<a href="guess-multi.html">Угадайка Мультиплеер</a>
+				</li>
+			</ul>
+		</header>
+		<main class="content">
+			<article class="container">
+				<h1>Загадка</h1>
+				<section class="puzzle-text">
+					<p>Контрольно-пропускной пункт в армии. Стоит часовой, который пропускает только по паролю. В кустах сидит шпион и наблюдает такую картину:<br>
+					Подходит офицер к КПП, часовой говорит:<br>
+					-Пароль 22.<br>
+					-Отзыв 11, - отвечает офицер.<br>
+					-Проходите.<br>
+					Подходит второй офицер к КПП, часовой говорит:<br>
+					-Пароль 26.<br>
+					-Отзыв 13, - отвечает офицер.<br>
+					-Проходите.<br>
+					Часовой думает, что все элементарно - нужно делить на 2.
+					Подходит к КПП. Часовой говорит:<br>
+					-Пароль 100.<br>
+					-Отзыв 50, - отвечает шпион.<br>
+					Шпиона убили.<br>
+					Какой отзыв должен был быть?<br>
+					</p>
+				</section>
+				<form class="puzzle-form" action="puzzle.php" method="GET">
+					<input type="text" name="userAnswer1">
+					<button class="btn" type="submit" value="Рискнуть">Рискнуть!</button>
+				</form>
+			</article>
+		</main>
+		<footer class="main-footer">
+			Copyright © 2016 <a href="http://vk.com/milaev_roman">Роман Милаев</a>
+		</footer>  
+	</body>
+</html>

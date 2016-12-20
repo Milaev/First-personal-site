@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background-color: #f7f7f7;
+	font-family: "Roboto", "Arial", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-header {
+	background-color: #dfdfdf;
+	min-width: 1280px;
+	height: 50px;
+	text-align: center;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.main-header li {
+	color: #4d4d4d;
+	font-size: 20px;
+	font-weight: 100;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+.main-header li:hover {
+	background-color: #434445;
+	color: white;
+}
+
+.content {
+	min-width: 1200px;
+	margin: 0 auto;
+}
+
+.content h1 {
+	min-width: 1200px;
+	text-align: center;
+	color: #2e353d;
+	font-size: 40px;
+	font-weight: 300;
+	margin-top: 35px;
+	margin-bottom: 45px;
+}
+
+.owner-photo {
+	margin-left: 17px;
+	display: block;
+	float: left;
+}
+
+.box-text {
+	width: 600px;
+	background-color: #ffffff;
+	float: right;
+	padding: 5px 48px 20px 100px;
+}
+
+.box-text p {
+	color: #242424;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: left;
+	margin-bottom: 31px;
+}
+
+.option a {
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 30px;
+	padding: 5px 10px;
+	border-radius: 15px;
+}
+
+.option a:hover {
+	background-color: #434445;
+	color: white;
+}
+
+.main-header .active {
+	background-color: #434445;
+	color: white;
+}
+
+.puzzle-text {
+	background-color: #ffffff;
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	margin-bottom: 40px;
+}
+
+.puzzle-text p {
+	color: #242424;
+	font-size: 22px;
+	font-weight: 100;
+	text-align: left;
+}
+
+.puzzle-form,
+.control {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.puzzle-form input {
+	border-radius: 20px;
+	border: 1px solid #00bfff;
+	padding: 10px;
+}
+
+.btn {
+	color: white;
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: bold;
+	padding: 10px 42px;
+	border: 0px;
+	border-radius: 20px;
+	background-color: #00bfff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.main-footer {
+	background-color: #434445;
+	text-align: center;
+	color: #a4a4a4;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 140px;
+	height: 163px;
+	min-width: 1920px;
+	position: fixed;
+	bottom: 0px;
+}
+
+.main-footer a {
+	color: inherit;
+}
